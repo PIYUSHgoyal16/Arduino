@@ -15,7 +15,7 @@ import machine
 d = dht.DHT11(machine.Pin(4))
 
 #For measuring values
-Measure = d.measure()
+d.measure()
 Temperature = d.temperature()
 Humidity = d.humidity()
 
